@@ -1,0 +1,12 @@
+size(600, 600);
+background(255);
+fill(#FEFF00);
+arc(300, 300, 80, 80, QUARTER_PI, PI+HALF_PI+QUARTER_PI);
+line(328, 328, 300, 300);
+line(328, 272, 300, 300);
+fill(0);
+ellipse(300, 280, 10, 10);
+textSize(32);
+String s = "Hi Mr. Garner!";
+fill(0);
+text(s, 300, 400, 400, 400);
